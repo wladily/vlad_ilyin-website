@@ -134,9 +134,9 @@ export default function About({ media, theme }: AboutProps): JSX.Element {
                     </div>
                 </div>
                 <div className='round-buttons'>
-                    <RoundButton img={github} tooltipText='GitHub' element='el-1' href='https://github.com/vlad-script/' />
-                    <RoundButton img={instagram} tooltipText='Instagram' element='el-2' href='https://www.instagram.com/vladscript/' />
-                    <RoundButton img={telegram} tooltipText='Telegram' element='el-3' href='https://t.me/vladscript' />
+                    <RoundButton img={github} tooltipText='GitHub' element='el-1' href='https://github.com/vladilyinoff/' />
+                    <RoundButton img={instagram} tooltipText='Instagram' element='el-2' href='https://www.instagram.com/vladilyinoff/' />
+                    <RoundButton img={telegram} tooltipText='Telegram' element='el-3' href='https://t.me/worldhacker' />
                     <RoundButton img={linkedin} tooltipText='LinkedIn' element='el-4' />
                     <RoundButton img={email} tooltipText='Email' element='el-5' href='mailto:vladjsx.it@gmail.com' />
                 </div>

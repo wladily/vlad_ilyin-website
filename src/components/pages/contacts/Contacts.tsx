@@ -63,15 +63,15 @@ export default function Contacts(): JSX.Element {
                 </div>
             </div>
             <div ref={buttonsRef} className={`buttons-contacts ${visible ? 'visible' : ''}`}>
-                <div onClick={() => {window.open('https://github.com/vlad-script/', '_blank')}}>
+                <div onClick={() => {window.open('https://github.com/vladilyinoff/', '_blank')}}>
                     <img src={github} alt="github" />
                     <span>GitHub</span>
                 </div>
-                <div onClick={() => {window.open('https://t.me/vladscript', '_blank')}}>
+                <div onClick={() => {window.open('https://t.me/worldhacker', '_blank')}}>
                     <img src={telegram} alt="telegram" />
                     <span>Telegram</span>
                 </div>
-                <div onClick={() => {window.open('https://www.instagram.com/vladscript/')}}>
+                <div onClick={() => {window.open('https://www.instagram.com/vladilyinoff/')}}>
                     <img src={instagram} alt="instagram" />
                     <span>Instagram</span>
                 </div>
